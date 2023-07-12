@@ -1,5 +1,6 @@
 import Vue from "vue";
-import VueRouter from "vue-router";
+// import VueRouter from "vue-router";
+import VueRouter from "../../vue-router";
 import Home from "../views/home/index.vue";
 import HomeA from "../views/home/home-a.vue";
 import HomeB from "../views/home/home-b.vue";
@@ -48,7 +49,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: "history",
-  base: process.env.BASE_URL,
+  // base: process.env.BASE_URL,
   routes,
 });
 

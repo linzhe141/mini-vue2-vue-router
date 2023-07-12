@@ -7,7 +7,16 @@
     <router-view />
   </div>
 </template>
-
+<script>
+export default {
+  data() {
+    return { a: { value: 1 } };
+  },
+  mounted() {
+    console.log(this);
+  },
+};
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -24,6 +33,7 @@
 a {
   font-weight: bold;
   color: #2c3e50;
+  cursor: pointer;
 }
 
 a.router-link-exact-active {
