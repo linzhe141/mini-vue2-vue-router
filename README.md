@@ -9,9 +9,9 @@
 - `history 路由`
 - `RouterLink`
 - `RouterView`
-- `router.addRoute`
-- `router.push` 如果该路由规则有 name，并且已经存在一个与之相同的名字，则会覆盖它
-- `router.beforeEach:(to, from, next)=>void`,其中 next(): 进行的下一个钩子。如果全部钩子执行完了，则导航到 to
+- `router.push`
+- `router.addRoute` 如果该路由规则有 name，并且已经存在一个与之相同的名字，则会覆盖它
+- `router.beforeEach:(to, from, next)=>void`其中 next(): 进行的下一个钩子。如果全部钩子执行完了，则导航到 to
 
 ### TODO
 
