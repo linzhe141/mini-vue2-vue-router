@@ -6,6 +6,8 @@
 
 这是一个 Vue2 简单的 vue-router 的实现，包含如下功能：
 
+## 这是 Vue2 简易版 vue-router 的实现，包含如下功能：
+
 - history 路由
 
 ## TODO
