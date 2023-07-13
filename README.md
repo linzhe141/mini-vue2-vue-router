@@ -9,8 +9,9 @@
 - `history 路由`
 - `RouterLink`
 - `RouterView`
-- `addRoute`
-- `beforeEach:(to, from, next)=>void`,其中 next(): 进行的下一个钩子。如果全部钩子执行完了，则导航到 to
+- `router.addRoute`
+- `router.push`
+- `router.beforeEach:(to, from, next)=>void`,其中 next(): 进行的下一个钩子。如果全部钩子执行完了，则导航到 to
 
 ### TODO
 
