@@ -1,5 +1,4 @@
-export function createRouteMap(routes) {
-  const pathMap = {};
+export function createRouteMap(routes, pathMap = {}) {
   routes.forEach((route) => addRouteRecord(route, pathMap));
   return { pathMap };
 }

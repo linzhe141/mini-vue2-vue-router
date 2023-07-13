@@ -1,5 +1,5 @@
 <template>
   <div>
-    <span>This is an home page =========>b</span>
+    <span>This is an page =========>home b</span>
   </div>
 </template>

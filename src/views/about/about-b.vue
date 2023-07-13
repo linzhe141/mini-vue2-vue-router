@@ -1,5 +1,5 @@
 <template>
   <div>
-    <span>This is an about page =========>b</span>
+    <span>This is an page =========> about b</span>
   </div>
 </template>
