@@ -55,20 +55,20 @@ const router = new VueRouter({
 });
 //! next(): 进行的下一个钩子。如果全部钩子执行完了，则导航到to
 //! 比如下面 2s 后才会导航到 to
-router.beforeEach((to, from, next) => {
-  console.log("1 to--->", to);
-  console.log("1 from--->", from);
-  setTimeout(() => {
-    next();
-  }, 1000);
-});
-router.beforeEach((to, from, next) => {
-  console.log("2 to--->", to);
-  console.log("2 from--->", from);
-  setTimeout(() => {
-    next();
-  }, 1000);
-});
+// router.beforeEach((to, from, next) => {
+//   console.log("1 to--->", to);
+//   console.log("1 from--->", from);
+//   setTimeout(() => {
+//     next();
+//   }, 1000);
+// });
+// router.beforeEach((to, from, next) => {
+//   console.log("2 to--->", to);
+//   console.log("2 from--->", from);
+//   setTimeout(() => {
+//     next();
+//   }, 1000);
+// });
 // test router.matcher.addRoute
 window.__test_route = [
   {
