@@ -6,7 +6,11 @@
 
 ## Vue2 简易版 vue-router 的实现，包含如下功能：
 
-- history 路由
+- `history 路由`
+- `RouterLink`
+- `RouterView`
+- `addRoute`
+- `beforeEach:(to, from, next)=>void`,其中 next(): 进行的下一个钩子。如果全部钩子执行完了，则导航到 to
 
 ## TODO
 
