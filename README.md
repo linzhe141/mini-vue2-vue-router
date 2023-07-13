@@ -24,6 +24,6 @@
 - 当调用 router.push 时，手动改变 `_route`
 - 把路由的状态(`_route`)，通过 `Vue.util.defineReactive` 定义成响应式数据
   ```js
-  Vue.util.defineReactive(this, "_route", this._router.history.current);
+  Vue.util.defineReactive(this, '_route', this._router.history.current);
   ```
 - 这样当改变这个`_route` 的时候，RouterView 组件就可以响应式更新了，即 URL 变化引起 UI 更新（**无需刷新页面**）
